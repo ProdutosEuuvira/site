@@ -1,7 +1,7 @@
 import { COMPANY } from "../database.js";
 
 export const DEVELOPMENT = !location.host.includes("github.io");
-export const PREFIX = DEVELOPMENT ? "" : "/teste";
+export const PREFIX = DEVELOPMENT ? "" : "/site";
 
 async function loadComponents(components = []) {
     try {
